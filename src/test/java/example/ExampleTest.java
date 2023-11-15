@@ -11,4 +11,9 @@ class ExampleTest {
         assertEquals("1 2 3", Example.join("1", "2", "3"), "Joined string didn't match");
     }
 
+    @Test
+    void testHello() {
+        assertEquals("Hello Develocity!", Example.hello(), "Greeting didn't match");
+    }
+
 }

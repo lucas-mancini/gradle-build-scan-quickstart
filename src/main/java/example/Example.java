@@ -6,4 +6,8 @@ public class Example {
         return String.join(" ", args);
     }
 
+    public static String hello() {
+        return "Hello Develocity!";
+    }
+
 }
